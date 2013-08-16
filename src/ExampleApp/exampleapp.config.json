@@ -1,0 +1,16 @@
+﻿{
+	appType: "desktop",
+	workingDirectory: "..\\..\\src\\ExampleApp\\data",
+	assemblies: [
+		{
+			path: "..\\..\\src\\ExampleApp\\bin\\Debug\\ExampleApp.exe",	
+			methods: [
+				/* eg: { name: "methodName", parameters: "string, int" }. Use parameters if method is overloaded. */
+				{ name: "ExampleApp.PersonService.SavePerson" },
+				{ name: "ExampleApp.PersonService.GetPeople" },
+				{ name: "ExampleApp.PersonService.GetPerson" },
+				{ name: "ExampleApp.PersonService.NonExistentMethod" },
+			]
+		}
+	]
+}
